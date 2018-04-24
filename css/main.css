@@ -1,0 +1,242 @@
+*{
+margin:0;
+padding: 0;
+box-sizing: border-box;
+font-family:Georgia;
+}
+
+/******************************HEADER***********************/
+.head-contact{
+  background-color: rgb(255, 94, 94);
+}
+.head-img{
+  width: 80px;
+  height: 80px;
+  margin-top: 5px;
+}
+.icon{
+ width: 30px;
+}
+
+
+/******************************INICIO***********************/
+.portada{
+  background-image: url(../assets/images/portada.jpg);
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding-left: 0;
+  opacity: 1;
+}
+.portada-title{
+  color:white;
+  font-size: 70px;
+  font-weight: bold;
+  font-family: Georgia;
+}
+.portada-text{
+  color:white;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+/******************************NAVBAR***********************/
+ .nav-icon{
+   width: 70px;
+   height:70px;
+   background-color: rgba(255, 220, 234, 0.938);
+   border-radius: 50%;
+ }
+ .nav-text{
+  font-weight: bold;
+  font-size: 20px;
+ }
+
+/******************************SOBRE MI***********************/
+.aboutme{
+  background-color: rgb(250, 158, 169);
+}
+.aboutme-img{
+ width: 400px; 
+ box-shadow:0 0 4em rgb(255, 255, 255);
+ border-radius: 50%;
+}
+.aboutme-text{
+ background-color: white;
+ width: 600px;
+ height:450px;
+ font-size: 18px;
+}
+.top{
+  width:100px;
+}
+.p-text{
+  margin: 3%;
+}
+.font-h3{
+  font-family: 'Bungee Inline';
+  color: rgb(0, 0, 0);
+}
+
+/******************************HABILIDADES***********************/
+.skills{
+  background-color: rgb(121, 45, 55);  
+}
+.skills-img{
+  width:120px;
+  height: 120px;
+  border-radius:5%; 
+}
+.skills-div{
+  border-radius: 20px 20px;
+}
+.description{
+  font-size: 20px;
+  color: white;
+}
+.view {
+  margin:3px;
+  float: left;
+  border: 10px solid #fff;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  box-shadow: 1px 1px 2px #e6e6e6;
+  cursor: default;
+  background: #fff url(../images/bgimg.jpg) no-repeat center center
+}
+
+.view .mask,
+.view .content {
+  width: 160px;
+  height: 300px;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0
+}
+
+.view img {
+  display: block;
+  position: relative
+}
+.view h2 {
+  color: #fff;
+  position: relative;
+  font-size:20px;
+  font-family: Raleway, serif; 
+  margin: 50px 
+}
+
+/*3*/
+
+.view-tenth img {
+  transform: scaleY(1);
+  transition: all .7s ease-in-out;
+}
+
+.view-tenth .mask {
+  background-color: rgba(255, 231, 179, 0.3);
+  transition: all 0.5s linear;
+  opacity: 0;
+}
+
+.view-tenth h2 {
+  text-align: center;
+  transform: scale(0);
+  color: #333;
+  transition: all 0.5s linear;
+  opacity: 0;
+}
+
+.view-tenth:hover img {
+  -webkit-transform: scale(5);
+  transform: scale(10);
+  opacity: 0;
+}
+
+.view-tenth:hover .mask {
+  opacity: 1;
+}
+
+.view-tenth:hover h2,
+.view-tenth:hover p,
+.view-tenth:hover a.info {
+  transform: scale(1);
+  opacity: 1;
+}
+/******************************PROYECTOS***********************/
+.proyects{
+ background-color: #e9e3e9;
+
+}
+.proyect-img{
+  height: 350px ;
+  width: 280px;
+  border: 1px solid black; 
+}
+
+.contenedor{
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+.texto-encima{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.centrado{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.cardi{
+  background-color: rgb(223, 123, 65);
+}
+
+/******************************CONTACTAME***********************/
+.contact{
+  background-color: rgb(112, 39, 79);
+}
+
+.contact-img{
+  width: 90px
+}
+/******************************FOOTER***********************/
+.footer{
+  background-color: rgb(247, 100, 100);
+}
+
+/******************************media query ***********************/
+
+@media (max-width: 768px){
+   .aboutme-text{  
+    width: 600px;
+    height:800px;
+    font-size: 18px;
+   }
+   .aboutme-img{
+    width: 280px; 
+   }
+   .skills-img{
+    width:130px;
+ 
+    border-radius:5%; 
+  }
+
+   .contact-img{
+    width: 90px;
+    margin-bottom: 15px;
+  }
+  .head-img{
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+  }
+}
+
