@@ -7,7 +7,7 @@ font-family:Georgia;
 
 /******************************HEADER***********************/
 .head-contact{
-  background-color: rgb(255, 94, 94);
+  background-color: rgb(77, 70, 70);
 }
 .head-img{
   width: 80px;
@@ -28,19 +28,26 @@ font-family:Georgia;
   background-repeat: no-repeat;
   background-position: center center;
   padding-left: 0;
-  opacity: 1;
+  opacity:1;
 }
 .portada-title{
-  color:white;
+  color:black;
   font-size: 70px;
   font-weight: bold;
   font-family: Georgia;
 }
 .portada-text{
-  color:white;
+  color:black;
   font-size: 30px;
   font-weight: bold;
 }
+.letra{
+  padding-top: 200px; 
+  position: absolute;
+  width: 98%;  
+}
+
+
 
 /******************************NAVBAR***********************/
  .nav-icon{
@@ -53,10 +60,13 @@ font-family:Georgia;
   font-weight: bold;
   font-size: 20px;
  }
+ .scroll{
+   position: fixed;
+ }
 
 /******************************SOBRE MI***********************/
 .aboutme{
-  background-color: rgb(250, 158, 169);
+  background-color: white;
 }
 .aboutme-img{
  width: 400px; 
@@ -82,7 +92,7 @@ font-family:Georgia;
 
 /******************************HABILIDADES***********************/
 .skills{
-  background-color: rgb(146, 69, 79);  
+  background-color: rgb(73, 69, 69);  
 }
 .skills-img{
   width:120px;
@@ -201,7 +211,7 @@ font-family:Georgia;
 
 /******************************CONTACTAME***********************/
 .contact{
-  background-color: rgb(179, 84, 136);
+  background-color: rgba(54, 50, 53, 0.74);
 }
 
 .contact-img{
@@ -209,12 +219,31 @@ font-family:Georgia;
 }
 /******************************FOOTER***********************/
 .footer{
-  background-color: rgb(247, 100, 100);
+  background-color: rgb(10, 0, 0);
 }
-
+.footer-letra{
+  color: white;
+}
 /******************************media query ***********************/
 
 @media (max-width: 768px){
+  .letra{
+    padding-top: 190px; 
+    position: absolute;
+    text-align: center; 
+    width: 90%; 
+  }
+  .portada-title{
+    color:white;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Georgia;
+  }
+  .portada-text{
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+  }
    .aboutme-text{  
     width: 600px;
     height:800px;
