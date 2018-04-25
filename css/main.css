@@ -7,7 +7,7 @@ font-family:Georgia;
 
 /******************************HEADER***********************/
 .head-contact{
-  background-color: rgb(77, 70, 70);
+  background-color: rgba(54, 50, 53, 0.74);
 }
 .head-img{
   width: 80px;
@@ -53,7 +53,7 @@ font-family:Georgia;
  .nav-icon{
    width: 70px;
    height:70px;
-   background-color: rgba(255, 220, 234, 0.938);
+   background-color: rgba(92, 70, 79, 0.938);
    border-radius: 50%;
  }
  .nav-text{
