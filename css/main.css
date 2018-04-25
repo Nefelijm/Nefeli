@@ -15,9 +15,15 @@ font-family:Georgia;
   margin-top: 5px;
 }
 .icon{
- width: 30px;
+ width: 40px; 
+ height: 40px;
 }
-
+.phone{
+  color: white;
+}
+.cv{
+  font-family: 'Black Han Sans', sans-serif;
+}
 
 /******************************INICIO***********************/
 .portada{
@@ -53,7 +59,7 @@ font-family:Georgia;
  .nav-icon{
    width: 70px;
    height:70px;
-   background-color: rgba(92, 70, 79, 0.938);
+   background-color: rgb(92, 157, 255);
    border-radius: 50%;
  }
  .nav-text{
@@ -86,7 +92,7 @@ font-family:Georgia;
   margin: 3%;
 }
 .font-h3{
-  font-family: 'Bungee Inline';
+  font-family: 'Francois One', sans-serif;
   color: rgb(0, 0, 0);
 }
 
@@ -179,8 +185,7 @@ font-family:Georgia;
 }
 /******************************PROYECTOS***********************/
 .proyects{
- background-color: #e9e3e9;
-
+ background-color: #fcf8f5;
 }
 .proyect-img{
   height: 350px ;
@@ -213,7 +218,9 @@ font-family:Georgia;
 .contact{
   background-color: rgba(54, 50, 53, 0.74);
 }
-
+.contactame{
+  color: white;
+}
 .contact-img{
   width: 90px
 }
